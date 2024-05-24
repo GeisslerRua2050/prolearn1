@@ -1,0 +1,120 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif; 
+}
+
+body{
+    background: #161812;
+
+}
+
+
+.secction-padding{
+    padding: 10px 0;
+}
+
+.carousel-item{
+    height: 80 vh;
+    min-height: 300px;
+    
+}
+
+.carousel-caption{
+    bottom: 200px;
+    z-index: 2;
+}
+.carousel-caption h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 25px;
+
+}
+
+.carousel-caption p{
+    width: 60 px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-brand{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.navbar-ligth .navbar-brand:focus, .navbar-ligth .navbar-brand:hover{
+    color: #000;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+.services .card-body i{
+    font-size: 200px;
+}
+
+.team .card-body i {
+    font-size: 2px;
+}
+
+@media (max-width: 767px){
+    .navbar-nav {
+        text-align: center;
+    }
+    .carousel-item{
+        height: 70vh;
+    }
+    .w-100{
+        height: 70 vh;
+    }
+    .carousel-caption{
+        bottom:  125px;
+    }
+    .carousel-caption h1{
+        font-size: 40px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .carousel-caption p{
+        width: 100px;
+        line-height: 1.5;
+        font-size: 15px;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .secction-padding{
+        padding: 50px 0;
+    }
+}
+

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #guess {
+    width: 50px;
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  #submit {
+    width: 100px;
+    height: 30px;
+    font-size: 24px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    background-color: #3e8e41;
+  }
+  
+  #result {
+    font-size: 24px;
+    color: #00698f;
+  }
